@@ -1,26 +1,83 @@
 /* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+https://coolors.co/2b2d42-8d99ae-edf2f4-ef233c-d90429
+# - #2B2D42  navy      (header & footer background)
+# - #8D99AE  slate     (education background, muted text)
+# - #EDF2F4  off-white (work experience background, light text)
+# - #EF233C  red       (links)
+# - #D90429  dark red  (link hover)
 */
 
-/* Global styles 
+/* Global styles
 ------------------------------------*/
 body {
-    /*background: lightblue;*/
+    background: #EDF2F4;
+    color: #2B2D42;
+    font-family: 'Libre Baskerville', Baskerville, Georgia, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1,
+h2 {
+    font-family: Utopia, 'Utopia Std', Georgia, serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+a {
+    color: #EF233C;
+}
+
+a:hover {
+    color: #D90429;
 }
 
 
-/* Header & Footer 
+/* Header & Footer
 ------------------------------------*/
+header {
+    background: #2B2D42;
+    color: #EDF2F4;
+}
 
+header p {
+    color: #8D99AE;
+}
+
+footer {
+    background: #2B2D42;
+    color: #8D99AE;
+}
 
 
 /* Work Experience
 ------------------------------------*/
+.work-experience {
+    background: #EDF2F4;
+}
 
+.company {
+    text-transform: uppercase;
+    font-weight: 700;
+}
 
 
 /* Education
 ------------------------------------*/
+.education {
+    background: #8D99AE;
+}
