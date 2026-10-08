@@ -50,7 +50,7 @@ a:hover {
 /* Header & Footer
 ------------------------------------*/
 header {
-    background: #2B2D42;
+    background: #8C7058;
     color: #EDF2F4;
 }
 
@@ -67,7 +67,7 @@ footer {
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-    background: #EDF2F4;
+    background: #58758C;
 }
 
 .company {
@@ -79,5 +79,5 @@ footer {
 /* Education
 ------------------------------------*/
 .education {
-    background: #8D99AE;
+    background: #8C7E58;
 }
